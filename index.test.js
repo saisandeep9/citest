@@ -6,5 +6,5 @@ const sum = require("./index");
 
 test("add of two numbers ", sumTest);
 function sumTest() {
-  expect(sum(1, 2)).toBe(3);
+  expect(sum(1, 2, 1)).toBe(4);
 }
